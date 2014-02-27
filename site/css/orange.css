@@ -1,0 +1,179 @@
+#resume {
+    font-size: 16px;
+    width: 780px;
+    -moz-box-shadow: #ddd 1px 1px 10px 6px;
+    -webkit-box-shadow: #ddd 1px 1px 10px 6px;
+    -o-box-shadow: #ddd 1px 1px 10px 6px;
+    box-shadow: #ddd 1px 1px 10px 6px;
+    font-family: Arial;
+    color: #555;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 60px;
+}
+#resume .date-separator {
+    padding: 0 3px;
+}
+#resume li {
+    padding-bottom: 5px;
+}
+#resume h1.name {
+    margin: 0 0 40px;
+    padding: 0;
+}
+#resume .first-name,
+#resume .last-name {
+    font-family: Myriad Pro, Arial;
+    margin-right: 10px;
+    font-size: 60px;
+    color: #555;
+    line-height: 60px;
+    font-weight: 700;
+}
+#resume .contact {
+    color: #aaa;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#resume .summary,
+#resume .specialties,
+#resume .skills,
+#resume .positions,
+#resume .educations,
+#resume .honors,
+#resume .interests,
+#resume .associations,
+#resume .certifications,
+#resume .languages,
+#resume .patents,
+#resume .publications,
+#resume .error-section {
+    clear: both;
+    border-top: 1px solid #ccc;
+    overflow: auto;
+    width: 750px;
+    margin: 0 auto;
+}
+#resume .summary h2,
+#resume .specialties h2,
+#resume .skills h2,
+#resume .positions h2,
+#resume .educations h2,
+#resume .honors h2,
+#resume .interests h2,
+#resume .associations h2,
+#resume .certifications h2,
+#resume .languages h2,
+#resume .patents h2,
+#resume .publications h2,
+#resume .error-section h2 {
+    color: #555;
+    font-size: 36px;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    margin: 30px 0 0;
+    padding: 0;
+}
+#resume .summary .content,
+#resume .specialties .content,
+#resume .skills .content,
+#resume .positions .content,
+#resume .educations .content,
+#resume .honors .content,
+#resume .interests .content,
+#resume .associations .content,
+#resume .certifications .content,
+#resume .languages .content,
+#resume .patents .content,
+#resume .publications .content,
+#resume .error-section .content {
+    float: left;
+    width: 473px;
+    line-height: 22px;
+    margin: 25px 0 25px 25px;
+}
+#resume .position .company-name,
+#resume .education .school-name,
+#resume .certification .certification-name,
+#resume .patent .patent-title,
+#resume .publication .publication-title {
+    font-size: 22px;
+    color: #e86e14;
+    line-height: 22px;
+    float: left;
+    width: 360px;
+}
+#resume .position .title,
+#resume .education .program,
+#resume .certification .certificate-details,
+#resume .patent .patent-details,
+#resume .publication .publication-details {
+    font-size: 18px;
+    color: #555;
+    line-height: 24px;
+    clear: both;
+}
+#resume .position .dates,
+#resume .education .dates,
+#resume .certification .dates,
+#resume .patent .dates,
+#resume .publication .dates {
+    font-size: 16px;
+    color: #555;
+    float: right;
+}
+#resume .position .job-summary,
+#resume .education .notes,
+#resume .education .activities,
+#resume .patent .patent-summary,
+#resume .publication .publication-summary {
+    clear: both;
+    padding: 15px 0;
+}
+#resume .position,
+#resume .education,
+#resume .certification,
+#resume .patent,
+#resume .publication {
+    margin-top: 30px;
+}
+#resume .position.first,
+#resume .education.first,
+#resume .certification.first,
+#resume .patent.first,
+#resume .publication.first {
+    margin-top: 10px!important;
+}
+#resume .skills li,
+#resume .languages li {
+    float: left;
+    width: 185px;
+    padding-right: 20px;
+    word-wrap: break-word;
+}
+#resume .skills li .skill-name,
+#resume .languages li .skill-name {
+    font-size: 16px;
+}
+#resume .skills li .left-paren,
+#resume .skills li .right-paren,
+#resume .skills li .proficiency,
+#resume .skills li .comma,
+#resume .skills li .years,
+#resume .languages li .left-paren,
+#resume .languages li .right-paren,
+#resume .languages li .proficiency,
+#resume .languages li .comma,
+#resume .languages li .years {
+    font-size: 10px;
+    color: #555;
+}
+#resume a {
+    color: #aaa;
+}
+#resume ol,
+#resume ul {
+    padding: 10px 0 10px 15px;
+}
