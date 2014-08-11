@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9eaed;
+}
+core-header-panel {
+    height: 100%;   
+}
+core-toolbar {
+    background-color: #5677fc;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.avatar {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.card {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border-radius: 3px;
+    background-color: white;
+}
+.card-title {
+    font-size: 35px;
+    color: #738ffe;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.card-content {
+    text-align:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+.card-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.project {
+    height: auto;
+    color: black;
+    text-align: left;
+    font-size: 25px; 
+    border-radius: 3px;
+}
+.project-header{
+    background-image: url(/site/img/Feedient/header-bg.jpg);
+    background-size: cover;
+    padding-top: 10px;
+    height: 55px;
+}
+.project-header img {
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-bottom: -12.5px;
+}
+.project-content {
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.project-content a {
+    color: black;    
+}
+
+@media only screen and (max-width: 1700px){
+    .card { width: 58%; height: auto;}
+}
+
