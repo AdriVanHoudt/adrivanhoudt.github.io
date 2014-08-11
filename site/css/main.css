@@ -32,7 +32,7 @@ a {
 }
 .card-title {
     font-size: 35px;
-    color: #738ffe;
+    color: #5677fc;
     text-align: left;
     padding-left: 20px;
     padding-bottom: 7px;
@@ -55,13 +55,15 @@ a {
     border-radius: 3px;
 }
 .project-header{
-    background-image: url(/site/img/Feedient/header-bg.jpg);
-    background-size: cover;
+    background-color: #738ffe;
+    color: white;
     padding-top: 10px;
     height: 55px;
+    padding-left: 4px;
 }
 .project-header img {
     height: 45px;
+    width: 45px;
     border-radius: 50%;
     margin-left: 8px;
     margin-bottom: -12.5px;
@@ -75,7 +77,34 @@ a {
 .project-content a {
     color: black;    
 }
+.project-sub {
+    color: #4d73ff;
+    padding-left: 4px;
+    float:left;
+    width: 100%;
+}
+.project-date {
+    float: right;
+    color: #4d73ff;
+    padding-right: 8px;
+}
 
+
+#Feedient {
+    background-image: url(/site/img/Feedient/header-bg.jpg);
+    background-size: cover;
+    padding-left: 0px;
+}
+#mobila {
+    background-color: #f0f0f0;
+    color:hsl(0, 0%, 0%);
+}
+#panoptic {
+    background-color: #f37736;
+}
+#district01 {
+    background-color: black 
+}
 @media only screen and (max-width: 1700px){
     .card { width: 58%; height: auto;}
 }
