@@ -163,3 +163,14 @@ table {
     width: auto;
     height: 150px;
 }
+p a {
+    color: #ff4081;
+}
+.card-content p {
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.card-content p core-icon {
+    margin-top: -5px;
+}
