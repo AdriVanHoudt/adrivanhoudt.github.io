@@ -26,7 +26,7 @@ a {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 3%;
     border-radius: 3px;
     background-color: white;
 }
@@ -123,4 +123,8 @@ a {
 }
 @media only screen and (max-width: 1700px){
     .card { width: 58%; height: auto;}
+}
+.list-sub {
+    color: #616161;
+    font-size: 12px;
 }
