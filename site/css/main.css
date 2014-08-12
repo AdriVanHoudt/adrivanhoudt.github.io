@@ -58,8 +58,11 @@ a {
     background-color: #738ffe;
     color: white;
     padding-top: 10px;
-    height: 55px;
+    padding-bottom: 10px;
     padding-left: 4px;
+    padding-right: 4px;
+    height: 55px;
+    line-height: 55px;
 }
 .project-header img {
     height: 45px;
@@ -70,23 +73,27 @@ a {
 }
 .project-content {
     margin-left: 8px;
+    margin-right: 8px;
     margin-top: 10px;
     font-size: 16px;
     padding-bottom: 10px;
+    
 }
 .project-content a {
-    color: black;    
+    color: #ff4081;
 }
 .project-sub {
-    color: #4d73ff;
-    padding-left: 4px;
+    color: #424242;
+    padding-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     float:left;
     width: 100%;
 }
 .project-date {
+    color: #424242;
     float: right;
-    color: #4d73ff;
-    padding-right: 8px;
+    padding-right: 16px;
 }
 
 
@@ -97,7 +104,10 @@ a {
 }
 #mobila {
     background-color: #f0f0f0;
-    color:hsl(0, 0%, 0%);
+    color:black;
+}
+#mobila a{
+    color: black;
 }
 #panoptic {
     background-color: #f37736;
