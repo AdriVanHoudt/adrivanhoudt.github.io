@@ -1,40 +1,43 @@
 <!-- 
     fix size for a4 paper
-    make cards 760px
+ *  make cards 760px
     contact + skills -> table not all centered
     padding card http://www.google.com/design/spec/components/cards.html#cards-usage
     more padding on place
     maybe no cards on cards (experiences)
+*   Spare time => leisure activities
+*   i'm to i am
+    maybe fastrada
 -->
 <!DOCTYPE html>
 <html>
   <head>
       <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
       <!-- Load platform.js for polyfill support. -->
-      <script src="/site/bower_components/platform/platform.js"></script>
+      <script src="/bower_components/platform/platform.js"></script>
       <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
       
-      <link rel="stylesheet" href="/site/css/main.css">
+      <link rel="stylesheet" href="/css/main.css">
       
-      <link rel="import" href="/site/bower_components/core-header-panel/core-header-panel.html">
-      <link rel="import" href="/site/bower_components/core-toolbar/core-toolbar.html">
-      <link rel="import" href="/site/bower_components/paper-shadow/paper-shadow.html">      
-      <link rel="import" href="/site/bower_components/paper-progress/paper-progress.html">   
-      <link rel="import" href="/site/bower_components/core-icons/core-icons.html">   
+      <link rel="import" href="/bower_components/core-header-panel/core-header-panel.html">
+      <link rel="import" href="/bower_components/core-toolbar/core-toolbar.html">
+      <link rel="import" href="/bower_components/paper-shadow/paper-shadow.html">      
+      <link rel="import" href="/bower_components/paper-progress/paper-progress.html">   
+      <link rel="import" href="/bower_components/core-icons/core-icons.html">   
       
   </head>
   <body>
       <paper-shadow animated="true"></paper-shadow>
-        <core-header-panel mode="waterfall">
+        <core-header-panel mode="waterfall" id="main">
             <core-toolbar>
-                <img class="avatar" src="/site/img/avatar.jpg">
+                <img class="avatar" src="/img/avatar.jpg">
                 Adri Van Houdt
             </core-toolbar>
             <div class="content" fit>
                 <div class="card paper-shadow-bottom paper-shadow-bottom-z-1">
                     <div class="card-title">Summary</div>
                     <div class="card-content">
-                        I'm a 20 year old graduate from Karel de Grote Hogeschool in Antwerp, Belgium
+                        I am a 20 year old graduate from Karel de Grote Hogeschool in Antwerp, Belgium
                         <br/>
                         I graduated in Applied Computer Science specialization Software Management
                         <br/><br/>
@@ -104,7 +107,7 @@ When I'm not working I work on my own projects, I fiddle around with software or
                     <div class="card-content">
                         <div class="project paper-shadow-bottom paper-shadow-bottom-z-2">
                             <div class="project-header" id="Feedient">
-                                <img src="/site/img/Feedient/avatar.png"/>
+                                <img src="/img/Feedient/avatar.png"/>
                                 <a href="https://feedient.com" target="_blank">Feedient</a>
                             </div>
                             <div class="project-content">
@@ -124,7 +127,7 @@ Some parts of Feedient are open source and can be found at <a href="https://gith
                     <div class="card-content">
                         <div class="project paper-shadow-bottom paper-shadow-bottom-z-2">
                             <div class="project-header" id="mobila">
-                                <img src="/site/img/Experience/mobila.png"/>
+                                <img src="/img/Experience/mobila.png"/>
                                 <a href="http://mobila.be" target="_blank">Mobila</a>
                                 <div style="float:right">Karlsruhe, Germany</div>
                             </div>
@@ -152,7 +155,7 @@ Some parts of Feedient are open source and can be found at <a href="https://gith
                         <br>
                         <div class="project paper-shadow-bottom paper-shadow-bottom-z-2">
                             <div class="project-header" id="panoptic">
-                                <img src="/site/img/Experience/panoptic.png"/>
+                                <img src="/img/Experience/panoptic.png"/>
                                 <a href="http://panoptic.biz" target="_blank">Panoptic</a>
                             </div>
                             <div class="project-sub">
@@ -168,7 +171,7 @@ Some parts of Feedient are open source and can be found at <a href="https://gith
                         <br>
                         <div class="project paper-shadow-bottom paper-shadow-bottom-z-2">
                             <div class="project-header" id="district01">
-                                <img src="/site/img/Experience/District01.png"/>
+                                <img src="/img/Experience/District01.png"/>
                                 <a href="http://district01.be" target="_blank">District01</a>
                             </div>
                             <div class="project-sub">
@@ -188,7 +191,7 @@ Some parts of Feedient are open source and can be found at <a href="https://gith
                     <div class="card-content">
                         <div class="project paper-shadow-bottom paper-shadow-bottom-z-2">
                             <div class="project-header" id="KdG">
-                                <img src="/site/img/Education/kdg.png"/>
+                                <img src="/img/Education/kdg.png"/>
                                 <a href="https://kdg.be" target="_blank">Karel de Grote Hogeschool</a>
                                 <div style="float:right;color:#424242;">Antwerp</div>
                             </div>
@@ -231,7 +234,7 @@ Some parts of Feedient are open source and can be found at <a href="https://gith
                     </div>
                 </div>
                 <div class="card paper-shadow-bottom paper-shadow-bottom-z-1">
-                    <div class="card-title">Spare Time</div>
+                    <div class="card-title">Leisure Activities</div>
                     <div class="card-content">
                         <div class="project paper-shadow-bottom paper-shadow-bottom-z-2">
                             <div class="project-header" id="snowboarding">
@@ -249,17 +252,17 @@ Some parts of Feedient are open source and can be found at <a href="https://gith
                                 <ul>
                                     <li>
                                         <div class="volunteer">
-                                            <img src="/site/img/SpareTime/sfinks.png"/>
+                                            <img src="/img/SpareTime/sfinks.png"/>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="volunteer">
-                                            <img src="/site/img/SpareTime/ask.jpg"/>
+                                            <img src="/img/SpareTime/ask.jpg"/>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="volunteer">
-                                            <img src="/site/img/SpareTime/bigair.png"/>
+                                            <img src="/img/SpareTime/bigair.png"/>
                                         </div>
                                     </li>
                                 </ul>
