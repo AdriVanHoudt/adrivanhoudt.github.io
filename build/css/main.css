@@ -1,0 +1,176 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9eaed;
+}
+core-header-panel {
+    height: 100%;   
+}
+core-toolbar {
+    background-color: #5677fc;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.avatar {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.card {
+    width: 760px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 3px;
+    background-color: white;
+}
+.card-title {
+    font-size: 35px;
+    color: #5677fc;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+.card-content {
+    text-align:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+.card-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.project {
+    height: auto;
+    color: black;
+    text-align: left;
+    font-size: 25px; 
+    border-radius: 3px;
+}
+.project-header{
+    background-color: #738ffe;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 55px;
+    line-height: 55px;
+}
+.project-header img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-bottom: -12.5px;
+}
+.project-content {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+}
+.project-content a {
+    color: #ff4081;
+}
+.project-sub {
+    color: #424242;
+    padding-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+    width: 100%;
+}
+.project-date {
+    color: #424242;
+    float: right;
+    padding-right: 16px;
+}
+
+
+#Feedient {
+    background-image: url(/img/Feedient/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    background-size: cover;
+    padding-left: 0px;
+}
+#mobila {
+    background-color: #f0f0f0;
+    color:black;
+}
+#mobila a{
+    color: black;
+}
+#panoptic {
+    background-color: #f37736;
+}
+#district01 {
+    background-color: black 
+}
+#KdG {
+    background-color: #c0d82f; 
+}
+#KdG a {
+    color: #424242;
+}
+@media only screen and (max-width: 1300px){
+    .card { width: 58%; height: auto;}
+}
+.list-sub {
+    color: #616161;
+    font-size: 12px;
+}
+.progressbar {
+    margin-bottom: 10px;
+    margin-top: -6px;
+}
+#snowboarding {
+    background-image: url(/img/SpareTime/mountain.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+}
+table {
+    width: 100%;
+}
+#volunteering {
+    background-color: #dd1923;  
+    text-align: center;
+    font-size: 50px;
+}
+.icon-big {
+    height: 45px;
+    width: 45px;
+}
+.volunteer {
+    text-align: center;
+}
+.volunteer img{
+    width: auto;
+    height: 150px;
+}
+p a {
+    color: #ff4081;
+}
+.card-content p {
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.card-content p core-icon {
+    margin-top: -5px;
+}
