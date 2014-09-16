@@ -95,7 +95,7 @@ module.exports = function(grunt) {
     ])
     
     grunt.registerTask('default', [
-        'clean:build',
+        'clean:dev',
         'copy:analytics',
         'autoprefixer',
         'uncss',
