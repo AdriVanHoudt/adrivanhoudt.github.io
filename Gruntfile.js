@@ -84,9 +84,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-uncss');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     
-    grunt.registerTask('dev', [
-        'clean:dev',
+    grunt.registerTask('deploy', [
+        'clean:build',
         'copy:analytics',
+        'imagemin',
         'autoprefixer',
         'uncss',
         'cssmin:build',
@@ -96,7 +97,6 @@ module.exports = function(grunt) {
     grunt.registerTask('default', [
         'clean:build',
         'copy:analytics',
-        'imagemin',
         'autoprefixer',
         'uncss',
         'cssmin:build',
